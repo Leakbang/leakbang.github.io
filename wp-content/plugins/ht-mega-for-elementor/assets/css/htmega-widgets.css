@@ -1,4 +1,7 @@
 /* Section Title style */
+.htmega-section-title svg{
+  width: 20px;
+}
 .htmega-section-title .section-title-txt {
   color: #23252a;
   font-weight: 600;
@@ -132,6 +135,9 @@
 }
 .htmega_button_icon {
   display: inline-block;
+}
+.htmega_button_icon svg {
+  width: 20px;
 }
 .htmega-button .htb-btn {
   border-radius: 0;
@@ -1424,6 +1430,9 @@ span.ht-count {
   background: transparent;
   line-height: 1;
 }
+.htmega-social-network li a svg {
+    width: 20px;
+  }
 
 .htmega-social-network li a:hover {
     color: #3B5998;
@@ -1878,7 +1887,10 @@ span.ht-count {
 /*---------------------------------
     Pricing Table Style
 -----------------------------------*/
-
+.htmega-features svg {
+  width: 20px;
+  display: inline-block;
+}
 .htmega-pricing-panel {
     display: flex;
     flex-direction: column;
@@ -2806,6 +2818,9 @@ ul.brand-list li a{
   top: 50%;
   transform: translate(0px, -50%);
   width: auto;
+}
+.htmega-testimonial-area .slick-next{
+  right: 0;
 }
 
 .htmega-testimonial-area .slick-dots{
@@ -4165,6 +4180,9 @@ textarea {
     margin-top: 30px;
     text-align: center;
 }
+.htmega-service svg {
+  width: 30px;
+}
 
 .htmega-service a.readmore_btn {
     height: 42px;
@@ -4184,8 +4202,13 @@ textarea {
     background: #0056ff;
     color: #fff;
 }
+
 .htmega-service .service-title a{
   text-decoration: none;
+}
+
+.htmega-service .thumb a {
+  display: block;
 }
 
 /*Service Style One*/
@@ -4524,6 +4547,9 @@ textarea {
 /*
 * News Ticker Css
 */
+.breaking-news-title svg {
+  width: 20px;
+}
 .breaking-news-default {
     border: 1px solid #18012c;
 }
@@ -5207,10 +5233,12 @@ textarea {
 .htmega-social-share ul li {
     font-family: "Montserrat", sans-serif;
     cursor: pointer;
+    color: #fff;
 }
 
-.htmega-social-share ul li {
-  color: #fff;
+.htmega-social-share svg {
+  width: 20px;
+  display: inline-block;
 }
 .htmega-social-share.htmega-social-view-icon-title ul li{
   padding-right: 15px;
@@ -5296,6 +5324,9 @@ textarea {
   font-size: 25px;
   text-align: center;
 }
+.image-popup-vertical-fit svg {
+  width: 20px;
+}
 
 .htmega-lightbox .htmega-lightbox-action a.play__btn i {
   border: 1px solid transparent;
@@ -5313,6 +5344,18 @@ textarea {
 }
 .mfp-no-margins .mfp-container {
   padding: 0;
+}
+
+.lightbox_button_only .htmega-lightbox-action {
+  opacity: 1;
+  position: static;
+}
+.lightbox_button_only.htmega-lightbox .htmega-lightbox-action a{
+  position: static;
+  transform: translate(0, 0);
+}
+.lightbox_button_only .htmega-lightbox-action::before{
+  display: none; 
 }
 
 /*
@@ -5346,6 +5389,10 @@ textarea {
 .htmega-search-box .btn-search{
   background: transparent;
   padding: 0;
+}
+.htmega-search-box svg {
+  width: 20px;
+  margin-top: 8px;
 }
 
 /* Search Style 01 */
@@ -6232,6 +6279,10 @@ a.instagram_follow_btn.possition-center span {
     position: relative;
     font-family: "Montserrat", sans-serif;
 }
+.htmega-switcher-nav svg {
+  width: 20px;
+  float: left;
+}
 
 .htmega-switcher-nav a::before {
     height: 100%;
@@ -6715,8 +6766,13 @@ a.instagram_follow_btn.possition-center span {
     margin: 0 9px;
     margin-bottom: 20px;
 }
+.htmega-tab-nav svg {
+  width: 20px;
+  float: left;
+  margin-top: 5px;
+}
 
-.htmega-tab-nav a i{
+.htmega-tab-nav a i,.htmega-tab-nav a svg{
   margin-right: 10px;
 }
 
@@ -7212,6 +7268,12 @@ a.instagram_follow_btn.possition-center span {
     padding-top: 0;
     padding-bottom: 0;
 }
+.htmega-modal-btn svg {
+  width: 20px;
+  margin-right: 10px;
+  margin-top: 16px;
+  float: left;
+}
 .htmega-modal-area .htb-modal-header h5{
   margin: 0;
 }
@@ -7229,6 +7291,9 @@ a.instagram_follow_btn.possition-center span {
 
 .flipbox-icon{
   display: inline-block;
+}
+.flipbox-icon svg {
+  width: 20px;
 }
 
 .htmega-flip-box-front,.htmega-flip-box-back{
@@ -7615,6 +7680,9 @@ a.instagram_follow_btn.possition-center span {
 .htmega-popover span a{
   text-decoration: none;
 }
+.htmega-popover svg {
+  width: 25px;
+}
 
 /* Popover Style */
 .popover {
@@ -7670,7 +7738,10 @@ a.instagram_follow_btn.possition-center span {
     cursor: pointer;
     display: inline-block;
 }
-.htmega-toggle-area .htmega-toggle-button a i {
+.htmega-toggle-button svg {
+  width: 20px;
+}
+.htmega-toggle-area .htmega-toggle-button a i,.htmega-toggle-area .htmega-toggle-button a svg {
   padding-left: 5px;
 }
 .htmega-toggle-button a.opened_btn,.open a.normal_btn{
@@ -8739,6 +8810,14 @@ button.htmega-notify-button {
     font-size: 18px;
 }
 
+.htmega-not-found .content a.page-back-btn svg {
+  width: 20px;
+  margin-top: 18px;
+  float: left;
+  margin-right: 8px;
+  display: inline-block;
+}
+
 /* 404 Animation css*/
 .cloud {
     width: 350px;
@@ -9036,6 +9115,9 @@ button.htmega-notify-button {
 }
 .htmega-counter-icon span{
   display: inline-block;
+}
+.htmega-counter-icon svg {
+  width: 20px;
 }
 
 /*Counterup Style 1*/
@@ -11186,7 +11268,6 @@ button.htmega-notify-button {
   right: -60px;
 }
 
-
 .htmega-twitter-area .slick-dots li button::before{
   display: none;
 }
@@ -12287,6 +12368,9 @@ button.htmega-notify-button {
 /* 
  * Double Button 
 */
+.htmega-doule-btn svg{
+  width: 20px;
+}
 .htmega-double-button-area{
   display: flex;
 }
@@ -14262,6 +14346,11 @@ a.htmega-downloadbtn {
     background: #fa9866;
     text-decoration: none;
 }
+.offcanvas svg {
+  width: 20px;
+  margin-top: 10px;
+  float: left;
+}
 
 .site-menu .searchform input[type="text"] {
   color: #fff;
@@ -15069,7 +15158,6 @@ a{
   .htmega-social-network li {
     margin: 3px 0;
   }
-
   .htmega-team-style-5 .htmega-team-hover-action .htmega-hover-action h4 {
     margin-top: 0;
   }
