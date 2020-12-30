@@ -11,4 +11,5 @@ body{
     align-items: left;
     box-shadow: 0 0 10px 0 rgba(9,32,77,0.2);
     border-radius: 5px;
+    padding: 1%;
 }
