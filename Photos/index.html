@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Photos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: linear-gradient(to bottom left, #DDEEFB, #FBD1E6);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;
+            padding: 5%;
+            min-height: 100vh;
+        }
+
+        .info-box {
+            background-color: white;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            box-shadow: 0 0 10px 0 rgba(9, 32, 77, 0.2);
+            border-radius: 5px;
+            padding: 1%;
+            padding-right: 5%;
+        }
+        .grid-container {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        min-width: 100%;
+        }
+        .grid-item {
+        margin: 2%;
+        box-shadow: 0 0 10px 0 rgba(9, 32, 77, 0.2);
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: #429CE3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info-box">
+        <ul style="width: 100%;">
+            <dt>
+                <h1>Leakbang</h1>
+            </dt>
+            <dt>
+                <a href="/index.html">
+                    <div>
+                        <h2>/back</h2>
+                    </div>
+                </a>
+            </dt>
+            <p>
+                Last Updated: 7/1/2021
+            </p>
+            <dt>
+                <h1>Photos</h1>
+            </dt>
+            <dt>
+                <p>
+                    Here you'll find some photos that I have taken... sometime... somewhere
+                    <br> <br> They are free to use.
+                    <br> <br> <b>Click on the images to enlarge</b>
+                </p>
+            </dt>
+            <div class="grid-container">
+                <img class="grid-item" src="/Photos/Album/snow.png" alt="">
+                <div class="grid-item">1</div>
+                <div class="grid-item">2</div>
+            </div>
+        </ul>
+    </div>
+    <script data-goatcounter="https://theta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+<!-- Nothing to see here -->
+
+</html>
