@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-image: linear-gradient(to bottom left, #DDEEFB, #FBD1E6);
+            background-image: linear-gradient(to bottom left, #474B50,#5B4D54);
             background-repeat: no-repeat;
             background-size: cover;
             color: black;
@@ -41,6 +41,7 @@
         }
         img {
             max-width: 100%;
+            border-radius: 5px;
         }
         a {
             text-decoration: none;
@@ -50,37 +51,13 @@
 </head>
 
 <body>
-    <div class="info-box">
-        <ul style="width: 100%;">
-            <dt>
-                <h1>Leakbang</h1>
-            </dt>
-            <dt>
-                <a href="/index.html">
-                    <div>
-                        <h2>/back</h2>
-                    </div>
-                </a>
-            </dt>
-            <p>
-                Last Updated: 7/1/2021
-            </p>
-            <dt>
-                <h1>Photos</h1>
-            </dt>
-            <dt>
-                <p>
-                    Here you'll find some photos that I have taken... sometime... somewhere
-                    <br> <br> They are free to use.
-                    <br> <br> <b>Click on the images to enlarge</b>
-                </p>
-            </dt>
-            <div class="grid-container">
-                <img class="grid-item" src="/Photos/Album/Snow/Snow.png" alt="">
-                <img class="grid-item" src="/Photos/Album/Snow/Snow.png" alt="">
-                <img class="grid-item" src="/Photos/Album/Snow/Snow.png" alt="">
-            </div>
-        </ul>
+    <div class="info-box" style="background-color: transparent;">
+        <img class="grid-item" src="/Photos/Album/Snow/Snow.png" alt="">
+    </div>
+    <div class="info-box" style=" margin-top: 50px;">
+        <script src="https://utteranc.es/client.js" repo="leakbang/leakbang.github.io" issue-term="title"
+                label="Comment" theme="github-light" crossorigin="anonymous" async>
+            </script>
     </div>
     <script data-goatcounter="https://theta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
